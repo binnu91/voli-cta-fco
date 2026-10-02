@@ -1,0 +1,289 @@
+{
+  "rilevazione_utc": "2026-10-02T09:11:25Z",
+  "criteri": {
+    "andata": "lunedi', CTA->FCO, diretto, arrivo entro 08:30",
+    "ritorno": "giovedi', FCO->CTA, diretto, partenza non prima di 20:40",
+    "passeggeri": 1,
+    "bagaglio": "solo bagaglio a mano",
+    "valuta": "EUR",
+    "prezzi": "per tratta",
+    "soglia_prezzo_alto_eur": 150.0
+  },
+  "fonti_attive": [
+    "ryanair"
+  ],
+  "settimane": [
+    {
+      "settimana": "2026-W41 (5-8 ott)",
+      "andata": {
+        "data": "2026-10-05",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-10-08",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W42 (12-15 ott)",
+      "andata": {
+        "data": "2026-10-12",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-10-15",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W43 (19-22 ott)",
+      "andata": {
+        "data": "2026-10-19",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-10-22",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W44 (26-29 ott)",
+      "andata": {
+        "data": "2026-10-26",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-10-29",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W45 (2-5 nov)",
+      "andata": {
+        "data": "2026-11-02",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-11-05",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W46 (9-12 nov)",
+      "andata": {
+        "data": "2026-11-09",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-11-12",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W47 (16-19 nov)",
+      "andata": {
+        "data": "2026-11-16",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-11-19",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W48 (23-26 nov)",
+      "andata": {
+        "data": "2026-11-23",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-11-26",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W49 (30 nov-3 dic)",
+      "andata": {
+        "data": "2026-11-30",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-12-03",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W50 (7-10 dic)",
+      "andata": {
+        "data": "2026-12-07",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-12-10",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W51 (14-17 dic)",
+      "andata": {
+        "data": "2026-12-14",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-12-17",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W52 (21-24 dic)",
+      "andata": {
+        "data": "2026-12-21",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-12-24",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2026-W53 (28-31 dic)",
+      "andata": {
+        "data": "2026-12-28",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2026-12-31",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2027-W01 (4-7 gen)",
+      "andata": {
+        "data": "2027-01-04",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2027-01-07",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2027-W02 (11-14 gen)",
+      "andata": {
+        "data": "2027-01-11",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2027-01-14",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2027-W03 (18-21 gen)",
+      "andata": {
+        "data": "2027-01-18",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2027-01-21",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2027-W04 (25-28 gen)",
+      "andata": {
+        "data": "2027-01-25",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2027-01-28",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    }
+  ]
+}
