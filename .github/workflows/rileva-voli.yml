@@ -1,0 +1,55 @@
+name: Rileva voli CTA-FCO
+
+on:
+  schedule:
+    # 03:12 UTC ogni notte (04:12 o 05:12 ora italiana, secondo l'ora legale).
+    # Deve girare PRIMA dell'attivita' pianificata che legge data/latest.json.
+    - cron: "12 3 * * *"
+  workflow_dispatch:
+    inputs:
+      settimane:
+        description: "Quante settimane rilevare"
+        required: false
+        default: "17"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rileva-voli
+  cancel-in-progress: false
+
+jobs:
+  rileva:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verifica la logica (autotest offline)
+        run: python3 scripts/rileva_voli.py --autotest
+
+      - name: Rilevazione voli
+        env:
+          # Opzionali: se assenti, la rilevazione usa solo Ryanair.
+          AMADEUS_CLIENT_ID: ${{ secrets.AMADEUS_CLIENT_ID }}
+          AMADEUS_CLIENT_SECRET: ${{ secrets.AMADEUS_CLIENT_SECRET }}
+          AMADEUS_HOST: ${{ vars.AMADEUS_HOST }}
+        run: |
+          python3 scripts/rileva_voli.py \
+            --settimane "${{ github.event.inputs.settimane || '17' }}"
+
+      - name: Commit del risultato
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/history
+          if git diff --cached --quiet; then
+            echo "Nessuna variazione da committare."
+          else
+            git commit -m "Rilevazione voli $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
