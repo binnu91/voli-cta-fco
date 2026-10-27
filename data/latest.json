@@ -1,5 +1,5 @@
 {
-  "rilevazione_utc": "2026-10-26T03:32:40Z",
+  "rilevazione_utc": "2026-10-27T03:29:13Z",
   "criteri": {
     "andata": "lunedi', CTA->FCO, diretto, arrivo entro 08:30",
     "ritorno": "giovedi', FCO->CTA, diretto, partenza non prima di 20:40",
@@ -13,22 +13,6 @@
     "ryanair"
   ],
   "settimane": [
-    {
-      "settimana": "2026-W44 (26-29 ott)",
-      "andata": {
-        "data": "2026-10-26",
-        "tratta": "CTA→FCO",
-        "migliore": null,
-        "validi": []
-      },
-      "ritorno": {
-        "data": "2026-10-29",
-        "tratta": "FCO→CTA",
-        "migliore": null,
-        "validi": []
-      },
-      "totale_eur": null
-    },
     {
       "settimana": "2026-W45 (2-5 nov)",
       "andata": {
@@ -279,6 +263,22 @@
       },
       "ritorno": {
         "data": "2027-02-18",
+        "tratta": "FCO→CTA",
+        "migliore": null,
+        "validi": []
+      },
+      "totale_eur": null
+    },
+    {
+      "settimana": "2027-W08 (22-25 feb)",
+      "andata": {
+        "data": "2027-02-22",
+        "tratta": "CTA→FCO",
+        "migliore": null,
+        "validi": []
+      },
+      "ritorno": {
+        "data": "2027-02-25",
         "tratta": "FCO→CTA",
         "migliore": null,
         "validi": []
